@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+} */
+
+body {
+  background-color: #f5e9d6;
+  color: #1a202c; /* equivalent to Tailwind's text-gray-900 */
+}
+/* @layer base {
+  body {
+    @apply bg-beige text-gray-900;
+  }
+} */
+
+/* Add this below your base styles */
+@keyframes scrollSlider {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scrollSlider {
+  animation: scrollSlider 40s linear infinite;
+}
