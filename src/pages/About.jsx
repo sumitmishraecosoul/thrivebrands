@@ -3,7 +3,7 @@ import serviceoffered from '../assets/images/about/servicesoffered.png';
 import whythrive from '../assets/images/about/Whythrive.png';
 import Workingwiththrive from '../assets/images/about/Workingwiththrive.png';
 // import ThriveVideo from '../assets/images/about/ThriveVideo.mp4';
-import ThriveVideo from '/public/videos/ThriveVideo.mp4';
+// import ThriveVideo from '/public/videos/ThriveVideo.mp4';
 import React from 'react';
 import WhoWeAreSection from '../components/WhoWeAreSection';
 import WorkSlider from '../components/WorkSlider';
