@@ -33,7 +33,7 @@ const About = () => {
               </section>
 
               <div className=" flex justify-center items-center py-10">
-  <video
+  {/* <video
     className="w-full max-w-6xl rounded-lg shadow-lg"
     controls
     autoPlay
@@ -42,7 +42,7 @@ const About = () => {
   >
      <source src="/videos/Thrivevideo.mp4" type="video/mp4" />
     Your browser does not support the video tag.
-  </video>
+  </video> */}
 </div>
  <section
                 className="h-[600px] bg-cover bg-center flex items-center justify-center"
