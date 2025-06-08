@@ -40,7 +40,7 @@ const About = () => {
     muted
     loop
   >
-    <source src={ThriveVideo} type="video/mp4" />
+     <source src="/videos/Thrivevideo.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </div>
