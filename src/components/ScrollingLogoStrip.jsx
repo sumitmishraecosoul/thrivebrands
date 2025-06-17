@@ -74,10 +74,30 @@ const logos = [
 // }
 
 
+// export default function ScrollingLogos() {
+//   return (
+//     <div className="overflow-hidden py-10 bg-[#f5e9d6]">
+//       <div className="whitespace-nowrap animate-scroll flex gap-10">
+//         {[...logos, ...logos].map((logo, index) => (
+//           <div
+//             key={index}
+//             className="p-6 rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300 min-w-[220px] flex items-center justify-center"
+//           >
+//             <img src={logo.src} alt={logo.alt} className="h-20 object-contain" />
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
 export default function ScrollingLogos() {
   return (
     <div className="overflow-hidden py-10 bg-[#f5e9d6]">
-      <div className="whitespace-nowrap animate-scroll flex gap-10">
+      <div className="whitespace-nowrap animate-logoScroll flex gap-10">
         {[...logos, ...logos].map((logo, index) => (
           <div
             key={index}
@@ -87,6 +107,17 @@ export default function ScrollingLogos() {
           </div>
         ))}
       </div>
+
+      {/* Custom animation style */}
+      <style>{`
+        @keyframes logoScroll {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .animate-logoScroll {
+          animation: logoScroll 5s linear infinite;
+        }
+      `}</style>
     </div>
   );
 }

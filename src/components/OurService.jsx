@@ -58,6 +58,78 @@
 
 
 
+// import React from 'react';
+// import ClaimsManagementTools from '../assets/images/ClaimsManagementTools.png';
+// import ContentDevelopmentAgency from '../assets/images/ContentDevelopmentAgency.png';
+// import CreativeAgency from '../assets/images/CreativeAgency.png';
+// import Dynamiccontentframework from '../assets/images/Dynamiccontentframework.png';
+// import EComDataScienceTools from '../assets/images/EComDataScienceTools.png';
+// import EComPortfolioManagement from '../assets/images/EComPortfolioManagement.png';
+// import Endtoendmarketplacemanagement from '../assets/images/Endtoendmarketplacemanagement.png';
+// import MarketIntelligenceToolsSubscriptions from '../assets/images/MarketIntelligenceToolsSubscriptions.png';
+// import PerformanceMarketingAgency from '../assets/images/PerformanceMarketingAgency.png';
+// import AIDrivenDataInfrastructureIntelligence from '../assets/images/AIDrivenDataInfrastructureIntelligence_.png';
+// import AIDrivenMarketingEngine from '../assets/images/AIDrivenMarketingEngine_.png';
+
+
+
+// // import AIResearch from '../assets/images/AI-DrivenMarketResearch.png';
+// const serviceImages = [
+//   ClaimsManagementTools,
+//   ContentDevelopmentAgency,
+//   CreativeAgency,
+//   AIDrivenDataInfrastructureIntelligence,
+//   EComDataScienceTools,
+//   EComPortfolioManagement,
+//   AIDrivenMarketingEngine,
+//   MarketIntelligenceToolsSubscriptions,
+//   PerformanceMarketingAgency
+
+// ];
+
+// export default function OurServicesSlider() {
+//   // Duplicate images for infinite loop effect
+//   const allImages = [...serviceImages, ...serviceImages];
+
+//   return (
+//     <div className="overflow-hidden w-full py-12 px-4">
+//       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
+//         OUR SERVICES
+//       </h2>
+//       <div className="relative w-full">
+//         <div className="flex animate-slide gap-4">
+//           {allImages.map((src, index) => (
+//             <div
+//               key={index}
+//               className="flex-shrink-0 w-[200px] h-[200px] rounded-2xl overflow-hidden shadow-lg"
+//             >
+//               <img
+//                 src={src}
+//                 alt={`service-${index}`}
+//                 className="w-full h-full object-cover"
+//               />
+//             </div>
+//           ))}
+//         </div>
+//       </div>
+
+//       {/* Tailwind custom animation */}
+//       <style>{`
+//         @keyframes slide {
+//           0% { transform: translateX(0); }
+//           100% { transform: translateX(-50%); }
+//         }
+//         .animate-slide {
+//           animation: slide 30s linear infinite;
+//         }
+//       `}</style>
+//     </div>
+//   );
+// }
+
+
+
+
 import React from 'react';
 import ClaimsManagementTools from '../assets/images/ClaimsManagementTools.png';
 import ContentDevelopmentAgency from '../assets/images/ContentDevelopmentAgency.png';
@@ -71,9 +143,6 @@ import PerformanceMarketingAgency from '../assets/images/PerformanceMarketingAge
 import AIDrivenDataInfrastructureIntelligence from '../assets/images/AIDrivenDataInfrastructureIntelligence_.png';
 import AIDrivenMarketingEngine from '../assets/images/AIDrivenMarketingEngine_.png';
 
-
-
-// import AIResearch from '../assets/images/AI-DrivenMarketResearch.png';
 const serviceImages = [
   ClaimsManagementTools,
   ContentDevelopmentAgency,
@@ -84,12 +153,10 @@ const serviceImages = [
   AIDrivenMarketingEngine,
   MarketIntelligenceToolsSubscriptions,
   PerformanceMarketingAgency
-
 ];
 
 export default function OurServicesSlider() {
-  // Duplicate images for infinite loop effect
-  const allImages = [...serviceImages, ...serviceImages];
+  const allImages = [...serviceImages, ...serviceImages]; // loop effect
 
   return (
     <div className="overflow-hidden w-full py-12 px-4">
@@ -113,17 +180,16 @@ export default function OurServicesSlider() {
         </div>
       </div>
 
-      {/* Tailwind custom animation */}
+      {/* Custom CSS to control animation */}
       <style>{`
         @keyframes slide {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
         }
         .animate-slide {
-          animation: slide 30s linear infinite;
+          animation: slide 5s linear infinite;
         }
       `}</style>
     </div>
   );
 }
-

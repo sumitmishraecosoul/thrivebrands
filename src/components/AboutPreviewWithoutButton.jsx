@@ -11,7 +11,10 @@ const AboutPreviewWithoutButton = () => {
 
   return (
     <div className="py-16 px-6 text-center bg-[#f5e9d6]">
-      <h2 className="text-4xl font-bold text-gray-900 mb-6">ABOUT US</h2>
+      {/* <h2 className="text-4xl font-bold text-gray-900 mb-6">ABOUT US</h2> */}
+      <h2 className="text-2xl sm:text-3xl font-bold text-[#073349] mb-6">
+            ABOUT US
+          </h2>
 
       <p className="text-gray-800 text-lg max-w-3xl mx-auto mb-4">
         The e-commerce landscape is competitive. But, with the right handful of talent, your online stores can thrive! From spectacular e-commerce marketing services to building a wide presence, we ace at helping you make sales, drive revenue, and increase customer retention rate.

@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 import Header from './layouts/Headers';
 import Footer from './layouts/Footer';
 import Home from './pages/Home';
@@ -8,13 +8,16 @@ import Services from './pages/Services';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <main className="min-h-[calc(100vh-200px)]">
-        <Routes>
+        {/* <Router> */}
+          <ScrollToTop />
+          <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -24,6 +27,7 @@ function App() {
             <Route path="/blog" element={<Blog/>} />
           
         </Routes>
+        {/* </Router> */}
       </main>
       {/* <Footer /> */}
     </BrowserRouter>
