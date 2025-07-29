@@ -244,10 +244,10 @@ export default function Home() {
           className="w-full h-[650px] object-cover hidden sm:block"
         />
       </section> */}
-
+{/* 
            <div className="flex flex-col lg:flex-row w-full">
  <div className="flex flex-col lg:flex-row w-full">
-  
+   */}
   {/* <section
     className="h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] flex-1 bg-cover bg-center"
     style={{ backgroundImage: `url(${HomePageServiceBanner1})` }}
@@ -259,11 +259,11 @@ export default function Home() {
     style={{ backgroundImage: `url(${HomePageServiceBanner2})` }}
   ></section> */}
 
-  <HomeServiceBanners/>
-</div>
+  
+{/* </div>
 
-</div>
-
+</div> */}
+<HomeServiceBanners/>
 
       {/* Additional Sections */}
       <AboutPreview />
