@@ -8,6 +8,8 @@ import Services from './pages/Services';
 import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsConditions from './pages/TermsConditions';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <Route path="/events" element={<Events/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog/>} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-conditions" element={<TermsConditions />} />
           
         </Routes>
         {/* </Router> */}

@@ -87,6 +87,12 @@ export default function ThriveFooter() {
             <li>
               <Link to="/contact" className="text-white hover:underline">Contact</Link>
             </li>
+            <li>
+              <Link to="/privacy-policy" className="text-white hover:underline">Privacy Policy</Link>
+            </li>
+            <li>
+              <Link to="/terms-conditions" className="text-white hover:underline">Terms & Conditions</Link>
+            </li>
           </ul>
         </div>
       </div>

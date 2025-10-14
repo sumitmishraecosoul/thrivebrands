@@ -67,7 +67,7 @@
 //               rel="noopener noreferrer"
 //               className="bg-[#A28750] hover:bg-[#8e7343] text-white px-4 py-2 rounded-md transition"
 //             >
-//               vector.ai
+//               Vector App
 //             </a>
 //           </li>
 //         </ul>
@@ -132,7 +132,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="bg-[#A28750] hover:bg-[#8e7343] text-white px-4 py-2 rounded-md transition"
             >
-              vector.ai
+              Vector App
             </a>
           </li>
         </ul>
@@ -158,7 +158,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="block bg-[#A28750] hover:bg-[#8e7343] text-white px-4 py-2 rounded-md transition"
               >
-                vector.ai
+                Vector App
               </a>
             </li>
           </ul>
