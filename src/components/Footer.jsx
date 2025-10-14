@@ -9,6 +9,9 @@ export default function HomeFooter() {
     navigate('/contact');
   };
 
+
+//gvttvtftft
+
   return (
     <footer className="text-white py-10 relative">
       <div className="max-w-5xl mx-auto px-6">
