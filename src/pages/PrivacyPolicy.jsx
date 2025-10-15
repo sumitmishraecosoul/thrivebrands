@@ -25,7 +25,7 @@ const PrivacyPolicy = () => {
                 We respect your privacy and are committed to protecting your personal data.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                This Privacy Policy explains how we collect, use, and safeguard information when you visit our website [https://thrivebrands.ai/] ("Site") or engage with our services.
+                This Privacy Policy explains how we collect, use, and safeguard information when you visit our website [www.thrivebrands.ai] ("Site") or engage with our services.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 By using our Site, you consent to the practices described in this Policy.
@@ -161,7 +161,7 @@ const PrivacyPolicy = () => {
               <p className="text-gray-700 mb-4">If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
               <ul className="list-disc pl-6 text-gray-700">
                 <li>Email: <a href="mailto:client.service@thrivebrands.ai" className="text-blue-600 hover:underline">client.service@thrivebrands.ai</a></li>
-                <li>Website: <a href="https://thrivebrands.ai/" className="text-blue-600 hover:underline">https://thrivebrands.ai/</a></li>
+                <li>Website: <a href="www.thrivebrands.ai" className="text-blue-600 hover:underline">www.thrivebrands.ai</a></li>
               </ul>
             </div>
           </div>

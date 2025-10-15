@@ -22,7 +22,7 @@ const TermsConditions = () => {
                 Welcome to Thrive Brands ("Company", "we", "our", "us").
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                These Terms and Conditions ("Terms") govern your access to and use of our website [https://thrivebrands.ai/] ("Site") and any services, content, or materials offered through it.
+                These Terms and Conditions ("Terms") govern your access to and use of our website [www.thrivebrands.ai] ("Site") and any services, content, or materials offered through it.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 By accessing or using our Site, you agree to comply with and be bound by these Terms. If you do not agree, please refrain from using our Site or services.
@@ -136,7 +136,7 @@ const TermsConditions = () => {
               <p className="text-gray-700 mb-4">If you have any questions about these Terms, please contact us at:</p>
               <ul className="list-disc pl-6 text-gray-700">
                 <li>Email: <a href="mailto:client.service@thrivebrands.ai" className="text-blue-600 hover:underline">client.service@thrivebrands.ai</a></li>
-                <li>Website: <a href="https://thrivebrands.ai/" className="text-blue-600 hover:underline">https://thrivebrands.ai/</a></li>
+                <li>Website: <a href="www.thrivebrands.ai" className="text-blue-600 hover:underline">www.thrivebrands.ai</a></li>
               </ul>
             </div>
           </div>
