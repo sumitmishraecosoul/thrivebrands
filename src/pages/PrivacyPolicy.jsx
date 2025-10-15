@@ -162,6 +162,7 @@ const PrivacyPolicy = () => {
               <ul className="list-disc pl-6 text-gray-700">
                 <li>Email: <a href="mailto:client.service@thrivebrands.ai" className="text-blue-600 hover:underline">client.service@thrivebrands.ai</a></li>
                 <li>Website: <a href="www.thrivebrands.ai" className="text-blue-600 hover:underline">www.thrivebrands.ai</a></li>
+                <li>Address: 608 165th Ave NE, Bellevue WA 98008</li>
               </ul>
             </div>
           </div>
