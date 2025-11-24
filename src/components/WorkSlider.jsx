@@ -40,11 +40,11 @@
 
 
 import React from "react";
-import Top1 from "../assets/images/Top1.jpg";
-import Top2 from "../assets/images/Top2.jpg";
-import Top3 from "../assets/images/Top3.png";
-import Top4 from "../assets/images/Top4.jpg";   
-import Top5 from "../assets/images/Top5.jpg";
+import Top1 from "../assets/images/TOP1.jpg";
+import Top2 from "../assets/images/TOP2.jpg";
+import Top3 from "../assets/images/TOP3.png";
+import Top4 from "../assets/images/TOP4.jpg";   
+import Top5 from "../assets/images/TOP5.jpg";
 
 const images = [Top1, Top2, Top3, Top4, Top5];
 
